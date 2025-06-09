@@ -84,20 +84,21 @@
 
 		.resume-header .row {
 			display: flex;
-			align-items: stretch;
+			align-items: stretch; /* deixa a imagem e o conteúdo com mesma altura */
 		}
 
 		.resume-picture-holder {
 			height: 100%;
+			display: flex;
+			align-items: stretch;
 		}
 
-		.resume-picture-holder img {
+		.resume-picture-holder img.picture {
 			height: 100%;
 			object-fit: cover;
 			border-top-left-radius: 10px;
 			border-bottom-left-radius: 10px;
 		}
-
 
 
 
